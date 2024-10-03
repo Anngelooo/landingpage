@@ -3,10 +3,11 @@
 }
 
 .header{
-    background-color:#2268ab;
+    background-color: #2268ab;
 }
+
 
 .title-header{
     font-family: "Lucida Console";
-    size:50px;
+    font-size:40px;
 }
