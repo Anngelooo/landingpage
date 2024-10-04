@@ -1,13 +1,21 @@
-.blue-color{
-    background-color:#2268ab;
-}
-
 .header{
     background-color: #2268ab;
 }
 
-
 .title-header{
     font-family: "Lucida Console";
-    font-size:40px;
+    font-size: 30px;
+}
+
+/* flex container header */
+.flex-container-header{
+    display: flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    justify-content:space-between;
+    padding: 20px;
+}
+
+div a {
+    color:black;
 }
