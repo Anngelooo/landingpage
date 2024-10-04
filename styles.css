@@ -1,29 +1,58 @@
-.header{
-    background-color: #2268ab;
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lucida Console";
 }
 
-.title-header{
-    font-family: "Lucida Console";
-    font-size: 30px;
+.header {
+  background-color: #2268ab;
 }
 
-/* flex container header */
-.flex-container-header{
-    display: flex;
-    flex-direction:row;
-    flex-wrap:wrap;
-    justify-content:space-between;
-    padding: 20px;
+.main-title {
+  text-align: center;
 }
 
-div a {
-    color:black;
+.email-header {
+  font-size: 20px;
 }
 
-.footer{
-    background-color: #2268ab;
-    text-align: center;
-    font-family: "Lucida Console";
-    font-size: 15px;
-    padding: 20px;
+.flex-container-header {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.card {
+  margin: 0 auto;
+  width: min-content;
+  margin-bottom: 50px;
+}
+
+.card-title {
+  text-align: center;
+  font-family: Fantasy;
+}
+
+.card-body {
+  padding: 0px 10px 10px 20px;
+}
+
+.footer {
+  background-color: #2268ab;
+  text-align: center;
+  font-size: 15px;
+  padding: 20px;
+}
+
+.sword-logo{
+    height:50px;
+    width:50px;
+}
+.email-logo{
+    height:15px;
+    width:15px;
 }
