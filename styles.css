@@ -19,3 +19,11 @@
 div a {
     color:black;
 }
+
+.footer{
+    background-color: #2268ab;
+    text-align: center;
+    font-family: "Lucida Console";
+    font-size: 15px;
+    padding: 20px;
+}
